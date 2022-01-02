@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function- Alert Dialog Box Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Alert Dialog Demo </p>
+
+		<script>
+			
+			alert("Welcome to my web site");
+			
+		</script>
+
+</body>
+</html> 
+
+		

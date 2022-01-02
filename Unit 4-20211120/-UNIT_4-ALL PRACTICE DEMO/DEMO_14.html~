@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Ternary Operator Demo </Title>
+</head>
+
+<body>
+	<h1> Ternary Operator Demo</h1>
+
+	<script>
+		var x = 5;
+		var y = 10;
+		
+		var name = (x > y) ? "X is greter than Y" : "Y is greter than X";
+		
+		document.write("<h4> " + name + "  <h4>"); 
+		document.write("<hr>");
+				
+	</script>
+
+</body>
+</html> 
+
+		

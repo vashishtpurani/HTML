@@ -1,0 +1,30 @@
+<html>
+<body>
+<script type='text/javascript'>
+      function validateEmail()
+      {
+	
+	//var emailID = document.getElementById("i1").value;   asb@gmail.com
+//your id={document.f.t.value+"document.f.s.value);
+         var emailID = document.myForm.email.value;
+         atrate = emailID.indexOf("@");  //11
+         atdot = emailID.lastIndexOf("."); //29
+	 
+         if (atrate < 3 || ( atdot - atrate <=6)) 
+         {
+            alert("Please enter correct email ID")
+            document.myForm.email.focus() ;
+         
+         }
+       else
+       {
+		alert("Correct");
+       }
+      }
+   
+</script>
+      <form name="myForm">
+Enter any value or left blank: <input type="text" id="i1" name="email" required/>
+<input type="button" onclick="validateEmail()" value="Validate Email Address" />
+</form>
+</body>

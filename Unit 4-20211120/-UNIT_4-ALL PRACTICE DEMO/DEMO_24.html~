@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Confirm Box Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Confirm Dialog Box Demo </p>
+
+		<script>
+			
+			var ans = confirm("10 + 10 = 20");
+			document.write(ans);
+			
+		</script>
+
+</body>
+</html> 
+
+		

@@ -1,0 +1,48 @@
+#logo
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.hello {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.yolo {
+  position: relative;
+  display: inline-block;
+}
+
+.yolo-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.yolo-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.yolo-content a:hover 
+    {background-color: limegreen;
+      color: #1d3557;
+      text-decoration: transparent;
+      font-size: 18px;
+      text-shadow: 2.3px -2px #e63946;
+    }
+
+.yolo:hover .yolo-content {display: block;}
+
+.yolo:hover .hello {background-color: darkmagenta;}
+          

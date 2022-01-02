@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function-Age  Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example is User Define Function-Age  Demo </p>
+
+		<script>
+			
+			var age = prompt("Enter the AGE :" );
+			age = eval(age);
+			
+			var c = tocheck_age(age);
+
+			function tocheck_age(age)
+			{
+				var chk = (age > 18)? "MAN" : "YOUNG BOY";
+				return chk;
+			}
+
+
+			document.write("<hr>");
+			document.write("<h4> The User is  " + c + "  <h4>"); 
+			document.write("<hr>");
+		</script>
+
+</body>
+</html> 
+
+		

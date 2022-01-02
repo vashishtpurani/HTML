@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div onmousedown="mDown()" onmouseup="mUp()" id="demo"
+style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+Click Me</div>
+
+<script>
+function mDown() {
+  
+    document.getElementById("demo").style.backgroundColor = "#1ec5e5";
+    document.getElementById("demo").innerHTML = "Release Me";
+    
+}
+
+function mUp() {
+     document.getElementById("demo").style.backgroundColor="#D94A38";
+     document.getElementById("demo").innerHTML="Thank You";
+}
+</script>
+
+</body>
+</html> 

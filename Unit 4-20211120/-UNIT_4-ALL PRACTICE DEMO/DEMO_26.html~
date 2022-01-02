@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> String Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example String Object Demo - blink  -  bold </p>
+
+		
+
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				var x = prompt("What is your Name: " );
+				
+				var y = x.bold();
+				document.write("<hr>");
+				document.write(y); 
+				
+				document.write("<hr>");
+				var y = x.italics();
+				document.write(y); 
+				
+				document.write("<hr>");
+				var y = x.toUpperCase();
+				document.write(y); 
+
+				document.write("<hr>");
+				var y = x.toLowerCase();
+				document.write(y); 
+
+				document.write("<hr>");
+				var y = x.substring(0,3);
+				document.write(y); 
+				document.write("<hr>");
+
+				var y = x.blink();
+				document.write("<blink>" + y + "</blink><br>"); 
+			}
+		</script>
+
+</body>
+</html> 
+
+		

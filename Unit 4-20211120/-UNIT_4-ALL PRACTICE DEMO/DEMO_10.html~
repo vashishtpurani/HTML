@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Comparison Operator Demo </Title>
+</head>
+
+<body>
+	<h1>JavaScript Variables</h1>
+
+	<script>
+		var x = 5;
+		document.write("The valueof x is : " + x+ "<BR>"); 
+		document.write("<hr>");
+
+		document.write("The valueof x is equal to 8: " + (x == 8) + "<BR>"); 
+		document.write("The valueof x is euqal to 5 : " + (x == 5) + "<BR>"); 
+		document.write("The valueof x is euqal to string 5: " + (x == "5") + "<BR>");
+ 		document.write("<hr>");
+		document.write("The valueof x is equal to numeric 5: " + (x === 5) + "<BR>"); 
+		document.write("The valueof x is equal to string 5: " + (x === "5") + "<BR>");
+		
+		document.write("<hr>");
+
+		document.write("The valueof x is not equal to 8: " + (x != 8) + "<BR>"); 
+		document.write("The valueof x is not equal to numeric 5: " + (x !== 5) + "<BR>"); 
+		document.write("The valueof x is not equal to string 5: " + (x !== "5") + "<BR>");
+ 		document.write("<hr>");
+	
+		document.write("The valueof x is greter than 8: " + (x > 8) + "<BR>"); 
+		document.write("The valueof x is less than 8: " + (x < 8) + "<BR>"); 
+		document.write("The valueof x is greter than and equal to 8: " + (x >= 8) + "<BR>");
+		document.write("The valueof x is less than and equal to 5: " + (x <= 5) + "<BR>");
+ 		document.write("<hr>");
+		
+		
+	</script>
+
+</body>
+</html> 
+

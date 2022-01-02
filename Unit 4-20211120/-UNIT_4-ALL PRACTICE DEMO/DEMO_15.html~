@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Buitl - in Function Demo </Title>
+</head>
+
+<body>
+	<h1>Built in function Demo</h1>
+
+	<script>
+		var x = "20";
+		var y = "10.35";
+		//var total = "10 * 10 + 5";
+		var total = eval("10 * 10 + 5");
+		var name = parseInt(x) + parseFloat(y);
+		
+		//document.write("<h4> " + name + "  <h4>"); 
+		document.write("<hr>");
+		document.write("<h4> " + total + "  <h4>"); 
+		document.write("<hr>");			
+	</script>
+
+</body>
+</html> 
+
+		

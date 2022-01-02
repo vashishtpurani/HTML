@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> String Operator Demo </Title>
+</head>
+
+<body>
+	<h1> String Operator Demo</h1>
+
+	<script>
+		var x = "GLS";
+		var y = "ICA";
+		
+		var name = x + " " + y; 
+		document.write("<h4> value of X = " + x + "  <h4>"); 
+		document.write("<h4> value of Y = " + y + "  <h4>"); 
+		document.write("<hr>");
+		document.write("<h4>" + name + "  <h4>"); 
+					
+		var total = 5 + 5; 
+		//var total = "5" + 5; 		
+		document.write("<h4> TOTAL = " + total + "  <h4>"); 
+		document.write("<hr>");
+				
+	</script>
+
+</body>
+</html> 
+
+		

@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+var a=parseInt(prompt("Enter number"));
+test_prime(a);
+
+function test_prime(n)
+{
+
+  if (n===1)
+  {
+    document.write("Not equal");
+    return false;
+    
+  }
+  else if(n === 2)
+  {
+    return true;
+  }
+  else
+  {
+    for(var x = 2; x < n; x++)
+    {
+      if(n % x === 0)
+      {
+	  document.write("Not prime");
+       return false;
+      }
+    }
+      document.write(" prime");
+    return true;  
+  }
+}
+
+//document.write(test_prime(parseInt(prompt("Enter number"))));
+</script>
+
+</head>
+<body>
+ 
+</body>
+</html>

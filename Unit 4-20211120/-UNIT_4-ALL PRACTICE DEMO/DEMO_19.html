@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function-passing parameter and return value Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+			<script>
+			
+			var x = prompt("Enter the value of x :" );
+			var y = prompt("Enter the value of y :" );
+			
+			x = eval(x);
+			y = eval(y);
+			var total = myFunction(x, y);
+
+			function myFunction(x,y) 
+			{
+				return x + y;
+			}
+
+
+			document.write("<hr>");
+			document.write("<h4> The value of x = " + x + "  <h4>"); 
+			document.write("<h4> The value of y = " + y + "  <h4>");
+			document.write("<h4> The value of total = " + total + "  <h4>");
+			document.write("<hr>");
+		</script>
+
+</body>
+</html> 
+
+		

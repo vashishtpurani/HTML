@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Maths Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Maths Demo </p>
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				
+				var a = Math.abs(-15);
+				var b = Math.ceil(2.20);
+				var c = Math.floor(2.20);
+				var d = Math.pow(2,3);
+				var f = Math.random();
+				var g = Math.sqrt(4);
+				var h = Math.tan(45);
+
+
+				document.write("<hr>");
+				document.write("Absolute Value of (-15)= " + a); 
+				document.write("<br> Ceil value of (2.20) = " +b); 
+				document.write("<br> floor value of (2.20)= " + c); 
+				document.write("<br> pow value = " + d); 
+				document.write("<br> random value = " + f); 
+				document.write("<br> squrt of 4 = " + g); 
+				document.write("<br> value of tan(45) = " + h); 
+				document.write("<hr>");
+			}
+		</script>
+
+</body>
+</html> 
+
+		

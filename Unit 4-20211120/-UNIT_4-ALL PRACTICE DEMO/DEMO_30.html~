@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Maths Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Date Demo - Charat </p>
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				
+				var a = new Date();
+				var b = Date.getDate();
+				var c = Date.getHours();
+				var d = Date.getTime();
+				
+
+				document.write("<hr>");
+				document.write("Current Date is  " + a	); 
+				document.write("<br> current Date is = " +b); 
+				document.write("<br> Current Hours = " + c); 
+				document.write("<br> Current Time = " + d); 
+				document.write("<hr>");
+			}
+		</script>
+
+</body>
+</html> 
+
+		

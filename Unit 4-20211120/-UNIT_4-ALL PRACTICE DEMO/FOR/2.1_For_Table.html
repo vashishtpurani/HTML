@@ -1,0 +1,21 @@
+<html>
+<head>
+
+<script type='text/javascript'>
+var num = prompt("Enter Number", "0") //prompt user to enter the number
+ 
+var num = parseInt(num); //parse the num to number
+var i = 0;
+ 
+document.write('<table border="1" cellspacing="2">');
+for(i=1;i<=10;i++) 
+{
+result=num*i;
+    
+    document.write("<tr><td>" + num + " x " + i + " = " + result + "</td></tr>");
+}
+ 
+document.write("</table>");
+</script>
+</head>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Internal Java Script Demo </Title>
+</head>
+
+<body>
+	<h1>JavaScript Variables</h1>
+
+	<script>
+		var x = 5 ;
+		var y = 10.203456;
+		var total = x + y;
+		var z = true;
+		var q = false;
+		//var zq = z + q;
+		var zq = z * q;
+		var a = 'GLS';
+		var b = "BCA";
+		var con = a + b;
+		
+		document.write("<h4> value of TOTAL = " + total + " <h4>"); 
+		//document.write("<h4> value of TOTAL = " + x + y + " <h4>"); 
+		document.write("<h5> Variable type of = " + typeof total + "  <h5>"); 
+		document.write("<hr>");
+		document.write("<h4> value of zq = " + zq + " <h4>");  
+		document.write("<h5> Variable type of = " + typeof zq + "  <h5>"); 
+		document.write("<hr>");
+		document.write("<h4> value of con = " + con + " <h4>");
+		document.write("<h5> Variable type of = " + typeof con + "  <h5>"); 
+		document.write("<hr>");
+		
+	</script>
+
+</body>
+</html> 
+

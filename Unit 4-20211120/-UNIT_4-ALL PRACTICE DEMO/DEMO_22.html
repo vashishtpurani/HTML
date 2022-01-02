@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function-Double function Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example is User Define Function- Double function Demo </p>
+
+		<script>
+			
+			var m1 = prompt("Enter the subject 1 marks :" );
+			var m2 = prompt("Enter the subject 2 marks :" );
+			var m3 = prompt("Enter the subject 3 marks :" );
+
+			m1 = eval(m1);
+			m2 = eval(m2);
+			m3 = eval(m3);
+
+			toper(m1,m2,m3);
+
+			function toper(m1,m2,m3)
+			{
+				var per = (m1 + m2 + m3)/3;
+				result(per);
+			}
+
+			function result(per)
+			{
+				var rst = (per > 35) ? "PASS" : "FAIL";
+				document.write("<hr>");
+				document.write("<h4> The User's PEercentage is  " + per + "  <h4>"); 
+				document.write("<h4> The User is  " + rst + "  <h4>"); 
+				document.write("<hr>");
+			}
+
+			
+		</script>
+
+</body>
+</html> 
+
+		

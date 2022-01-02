@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> String Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example String Object Demo - Charat </p>
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				var x = prompt("What is your Name: " );
+				var y = x.charAt(1);
+				document.write("<hr>");
+				document.write(y); 
+				document.write("<hr>");
+			}
+		</script>
+
+</body>
+</html> 
+
+		

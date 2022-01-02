@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function-Celsisu Fahrenheit Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Function-Celsisu Fahrenheit Demo </p>
+
+		<script>
+			
+			var f = prompt("Enter the Fahrenheit :" );
+			f = eval(f);
+			
+			var c = toCelsius(f);
+
+			function toCelsius(f) 
+			{
+				return (5/9) * (f - 32);
+			}
+
+
+			document.write("<hr>");
+			document.write("<h4> The Fahrenheit value = " + f + "  <h4>"); 
+			document.write("<h4> The Celsisu value = " + c + "  <h4>");
+			document.write("<hr>");
+		</script>
+
+</body>
+</html> 
+
+		

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Arithmetic Operator Demo </Title>
+</head>
+
+<body>
+	<h1>Arithmetic Operator Demo</h1>
+
+	<script>
+		var x = 5;
+		var y = 10;
+		
+		
+		document.write("<h4> value of X = " + x + "  <h4>"); 
+		document.write("<h4> value of Y = " + y + "  <h4>"); 
+		document.write("<hr>");
+
+		var sum = x+y;
+		var sub = x-y;
+		var mul = x*y;
+		var div = x/y;
+		var mod = x%y;
+		var x_plus= x++;
+		var y_min =y--;
+		document.write("<h5> X + Y = " + sum + "  <h5>"); 
+		document.write("<h5> X - Y = " + sub + "  <h5>"); 
+		document.write("<h5> X * Y = " + mul + "  <h5>"); 
+		document.write("<h5> X / Y = " + div + "  <h5>"); 
+		document.write("<h5> X % Y = " + mod + "  <h5>"); 
+		document.write("<h5> X ++ = " + x_plus + "  <h5>"); 
+		document.write("<h5> X -- = " + y_min + "  <h5>"); 
+		document.write("<hr>");
+		
+	</script>
+
+</body>
+</html> 
+

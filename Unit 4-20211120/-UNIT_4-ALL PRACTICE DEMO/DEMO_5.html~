@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> Internal Java Script Demo </Title>
+</head>
+
+<body>
+	<h1>JavaScript Variables</h1>
+
+	<script>
+		var x = 5 ;
+		var y = 10;
+		var answer = x + y;
+		document.write("<h2> X = 5 <h2>"); 
+		document.write("<h2> y = 10 <h2>"); 
+		document.write("<h2> ANSWER (X + Y): " + answer + " <h2>"); 
+	</script>
+
+</body>
+</html> 
+

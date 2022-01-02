@@ -1,0 +1,59 @@
+<html>
+<head>
+<script LANGUAGE="JavaScript">
+	function ValidateForm()
+	{
+		
+		if (( document.form.gender[0].checked == false ) && ( form.gender[1].checked == false ) )
+		{
+			alert ( "Please choose your Gender: Male or Female" );
+		}
+		else
+		{
+			alert("You Selected");
+		}
+		
+		if (( form.course[0].checked == false ) && ( form.course[1].checked == false)&&( form.course[2].checked == false))
+		{
+			alert ( "Please choose your Course" );
+		}
+		else
+		{
+			alert("You Selected");
+		}
+		
+		if (( form.fees[0].checked == false ) && ( form.fees[1].checked == false)&&( form.fees[2].checked == false))
+		{
+			alert ( "Please choose your fees" );
+		}
+		else
+		{
+			alert("You Selected");
+		}
+		
+		
+		
+					
+}
+</script>
+</head>
+<body>
+
+<form name="form">
+Your Gender: <input type="radio" name="gender" value="Male"> Male<!--0 -->
+<input type="radio" name="gender" value="Female"> Female<br><!--1-->
+
+YOUR COURSE:<input type="radio" name="course" value="Male"> BCA<!--0 -->
+<input type="radio" name="course" value="Female"> IM<!--1-->
+<input type="radio" name="course" value="Female"> BCOM<br><!--2-->
+
+YOUR FEES:<input type="radio" name="fees" value="Male"> 1000
+<input type="radio" name="fees" value="Female"> 1500
+<input type="radio" name="fees" value="Female"> 600<br>
+
+
+<input type="button"  value="Submit" onClick="ValidateForm()">
+<input type="reset" Value="Reset">
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> String Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example String Object Demo - big method - length </p>
+
+		
+
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				var x = prompt("What is your Name: " );
+				var y = x.big();
+				var len = x.Length;
+
+				document.write("<hr>");
+				document.write("The length of Stirng is " + len + " Character<br>"); 
+				document.write("<hr>");
+				document.write("<big>" + y + "</big><br>"); 
+				document.write("<hr>");
+				document.write("<big>" + x + "</big>"); 
+				document.write("<hr>");
+			}
+		</script>
+
+</body>
+</html> 
+
+		

@@ -1,0 +1,38 @@
+<html>
+<head>
+<script type="text/javascript">
+		function evalGroup()
+		{
+			var group = document.radioForm.myRadio;
+			for (var i=0; i<group.length; i++) 
+			{
+				if (group[i].checked)
+				{
+					break;
+				}
+			}
+			if (i==group.length)
+			{
+				return alert("No Checkbox is checked");
+			}		
+			for(count=0;count<group.length;count++)
+			{
+				if (document.radioForm.myRadio[count].checked)
+				{
+					alert(document.radioForm.myRadio[count].value+" is selected");
+				}
+			}
+			//alert("Check box " + (i+1) + " is checked.");
+	}	
+</script>
+</head>
+<body>
+<form name="radioForm">
+Checkbox 1: <input type="checkbox" name="myRadio" value="Checkbox1" /><br />
+Checkbox 2: <input type="checkbox" name="myRadio" value="Checkbox2"/><br />
+Checkbox 3: <input type="checkbox" name="myRadio" value="Checkbox3"/><br />
+Checkbox 4: <input type="checkbox" name="myRadio" value="Checkbox4"/><br /><br />
+<input type="button" value="Eval Group" onclick="evalGroup()" />
+</form>
+</body>
+</html>

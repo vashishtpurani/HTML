@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script type="text/javascript" language="JavaScript">
+	function validate()
+	{
+	
+
+		if (document.f1.language1.checked || document.f1.language2.checked || document.f1.language3.checked || document.f1.language4.checked == true) 
+{ 
+alert("you HAVE  checked THE CHECK BOX");}
+		else 
+		{
+			alert ("please check a checkbox")
+		}
+	}	
+	</script>
+</head>
+<body>
+<form name="f1" >
+<input type="checkbox" name="language1" value="onlyspanish"> Only Spanish <br />
+<input type="checkbox" name="language2" value="mostlyspanish"> Mostly Spanish but some English <br />
+<input type="checkbox" name="language3" value="spanishenglish"> Spanish and English equally <br>
+<input type="checkbox" name="language4" value="mostlyenglish"> Mostly English but some Spanish <br />
+<input type='button' onclick="validate()" value='Validate Checkbox' />
+</form>
+</body>
+</html>

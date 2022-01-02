@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<title>Write a JavaScript program that accept two integers and display the larger</title>
+<script>
+function fun()
+{
+var a=parseInt(prompt("Enter 1st number"));
+var b=parseInt(prompt("Enter 2nd number"));
+
+if( a > b)
+	//alert ("A is greater");
+	document.getElementById("demo").innerHTML="A is greater";
+else if ( a < b )
+	alert ("B is greater");
+else
+	alert("Equal");
+
+}
+</script>
+</head>
+<body>
+<input type="button" value="Check Greater" onclick="fun()">
+<p id="demo"></p>
+</body>
+</html>
